@@ -30,7 +30,7 @@ BIOS_OFFSET = 98
 TIMER_OFFSET = 99
 FAN1_MAX = 59
 FAN2_MAX = 59
-DEVICE_LIST = ["OMEN by HP Laptop 16"]
+DEVICE_LIST = ["OMEN by HP Laptop 15"]
 
 
 def is_root():
@@ -267,8 +267,6 @@ class FanControlWindow(QtWidgets.QMainWindow):
 
 
 if __name__ == "__main__":
-    # code to run ask for root access if not already
-    
     app = QtWidgets.QApplication(sys.argv)
     window = FanControlWindow()
     window.show()
