@@ -1,5 +1,5 @@
 env/
 build/
 dist/
-OnlyFans/
 __pycache__/
+*.whl
