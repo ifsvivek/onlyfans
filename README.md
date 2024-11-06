@@ -61,6 +61,30 @@ sudo pip install click tomlkit click-aliases
     chmod +x fans.sh
     ```
 
+4. **Create a Desktop Entry:** (Optional)
+
+Create a desktop entry file named `fans.desktop` with the following content:
+
+```
+[Desktop Entry]
+Version=1.0
+Name=OnlyFans
+Comment=Fan Control Utility
+Exec=/home/yourusername/onlyfans/fans.sh
+Icon=/home/yourusername/onlyfans/fans.png
+Terminal=false
+Type=Application
+NoDisplay=false
+```
+
+Replace `/home/yourusername/onlyfans/` with the actual path to the `onlyfans` directory on your system.
+
+Move the `fans.desktop` file to `~/.local/share/applications/`:
+
+```sh
+mv fans.desktop ~/.local/share/applications/
+```
+
 ---
 
 ## Usage

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=OnlyFans
+Comment=Fans Go Brrrrrrr
+Exec=/home/vivek/Documents/omen/fans.sh
+Icon=/home/vivek/Documents/omen/fans.png
+Terminal=false
+Type=Application
+NoDisplay=false
